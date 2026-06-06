@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: SWEDEN_TRAFFIC
+    schema: BRONZE
+
+    tables:
+      - name: ROAD_CONDITIONS_RAW
